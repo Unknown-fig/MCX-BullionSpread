@@ -1,0 +1,60 @@
+{
+  "trader_name": "Utsab",
+  "account_capital": 1000000.0,
+  "notes": "Watching GOLDM vs GOLDPETAL closely. Spread holding at -19.11/g. Will scale into 2 lots if gap widens past -22.50 INR/g on retail festive bids.\n- [Tender Period]: 5 days to expiry. Close open legs to avoid 25% delivery margin.\n- [Reversion Target]: Aiming for convergence back to mean (\u20b9-20.13/g).\n- [Stop Out Alert]: Hard stop if spread breaches \u00b13.0\u03c3 (\u20b9-23.34/g).\n- [Festive Demand]: Physical coin premium surging relative to wholesale 100g bar.",
+  "positions": [
+    {
+      "id": 7230323,
+      "timestamp": "2025-10-31",
+      "pair": "GOLDM/GOLDTEN",
+      "direction": "LONG_SPREAD",
+      "lots_a": 7,
+      "lots_b": 70,
+      "grams": 700,
+      "entry_spread": -0.51,
+      "current_spread": -0.51,
+      "unrealized_pnl": 2.1,
+      "status": "OPEN"
+    },
+    {
+      "id": 7230327,
+      "timestamp": "2025-10-31",
+      "pair": "GOLDM/GOLDTEN",
+      "direction": "LONG_SPREAD",
+      "lots_a": 6,
+      "lots_b": 60,
+      "grams": 600,
+      "entry_spread": -0.51,
+      "current_spread": -0.51,
+      "unrealized_pnl": 1.8,
+      "status": "OPEN"
+    },
+    {
+      "id": 7230335,
+      "timestamp": "2025-10-31",
+      "pair": "GOLDM/GOLDTEN",
+      "direction": "LONG_SPREAD",
+      "lots_a": 2,
+      "lots_b": 20,
+      "grams": 200,
+      "entry_spread": -0.51,
+      "current_spread": -0.51,
+      "unrealized_pnl": 0.0,
+      "status": "OPEN"
+    }
+  ],
+  "closed_trades": [
+    {
+      "id": 101,
+      "pair": "GOLDM/GOLDPETAL",
+      "direction": "LONG_SPREAD",
+      "entry_date": "2025-10-24",
+      "exit_date": "2025-10-31",
+      "entry_spread": -24.3,
+      "exit_spread": -19.11,
+      "grams": 200,
+      "realized_pnl": 1038.6,
+      "net_pnl": 307.3
+    }
+  ]
+}
